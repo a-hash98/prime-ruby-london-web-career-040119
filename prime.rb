@@ -3,11 +3,11 @@ def prime?(num)
   if num < 2
     return false
   end
-  puts arr.include?{|i| num % i == 0 && i != num}
+  puts arr.detect{|i| num % i == 0 && i != num}
 end
 
 
-prime?(6)
+prime?(3)
 
 
 
