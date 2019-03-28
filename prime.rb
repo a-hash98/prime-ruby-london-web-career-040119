@@ -4,6 +4,7 @@ def prime?(num)
     for j in arr
        if i*j == num
          return true
+         break
        end
     end
   end
