@@ -11,7 +11,7 @@ def prime?(num)
   return "will return anyway"
 end
 
-puts prime?(7)
+puts prime?(6)
 
 
 
