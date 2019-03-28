@@ -8,7 +8,7 @@ def prime?(num)
        end
     end
   end
-return false
+  return "will return anyway"
 end
 
 puts prime?(7)
