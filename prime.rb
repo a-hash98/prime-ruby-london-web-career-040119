@@ -1,5 +1,8 @@
 def prime?(num)
   arr = (2..100).to_a
+  if num < 2
+    return false
+  end
   for i in arr
     for j in arr
        if i*j == num
@@ -11,7 +14,8 @@ def prime?(num)
   return true
 end
 
-puts prime?(6)
+a = [2,]
+for i in prime?(6)
 
 
 
