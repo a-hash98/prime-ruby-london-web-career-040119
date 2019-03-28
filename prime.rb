@@ -1,5 +1,5 @@
 def prime?(num)
-  puts (2..100)
+  puts (2..100).to_a
   #puts arr.detect{|i,j| i*j == num}
 end
 
