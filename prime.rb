@@ -3,18 +3,11 @@ def prime?(num)
   if num < 2
     return false
   end
-  for i in arr
-    for j in arr
-       if i*j == num
-         return false
-         break
-       end
-    end
-  end
-
-return true
+  puts arr.detect{|i| num % i == 0 && i != num}
 end
+  
 
+prime?(6)
 
 
 
