@@ -5,7 +5,7 @@ def prime?(num)
   end
   puts arr.detect{|i| num % i == 0 && i != num}
 end
-  
+
 
 prime?(6)
 
