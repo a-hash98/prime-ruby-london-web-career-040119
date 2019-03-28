@@ -4,10 +4,12 @@ def prime?(num)
     return false
   end
   factors = arr.detect{|i| num % i == 0 && i != num}
+  if factors
+    return false
+  else
+    return true
 end
 
-
-prime?(3)
 
 
 
