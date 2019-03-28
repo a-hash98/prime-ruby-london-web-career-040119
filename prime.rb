@@ -19,7 +19,7 @@ for i in a
   if prime?(i)
     puts "#{i} : is a prime"
   end
-  if !prime(i)
+  if !prime?(i)
     puts "#{i} : not a prime"
   end
 end
