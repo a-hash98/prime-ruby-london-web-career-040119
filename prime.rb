@@ -1,5 +1,5 @@
 def prime?(num)
-  arr = Array.new(2..100).to_i
+  arr = Array.new(2..100)
   puts arr
   #puts arr.detect{|i,j| i*j == num}
 end
