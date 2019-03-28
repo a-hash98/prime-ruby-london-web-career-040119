@@ -14,15 +14,7 @@ def prime?(num)
   return true
 end
 
-a = [1,3,12,13,17]
-for i in a
-  if prime?(i)
-    puts "#{i} : is a prime"
-  end
-  if !prime?(i)
-    puts "#{i} : not a prime"
-  end
-end
+
 
 
 # Add  code here!
