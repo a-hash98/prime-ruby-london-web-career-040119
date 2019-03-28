@@ -22,6 +22,7 @@ for i in a
   if !prime(i)
     puts "#{i} : not a prime"
   end
+end
 
 
 # Add  code here!
