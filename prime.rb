@@ -1,5 +1,5 @@
 def prime?(num)
-  arr = (2..10000).to_a
+  arr = (2..1000).to_a
   if num < 2
     return false
   end
