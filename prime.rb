@@ -3,7 +3,7 @@ def prime?(num)
   puts arr.detect{|i,j| i*j == num}
 end
 
-
+prime(7)
 
 
 
