@@ -3,12 +3,12 @@ def prime?(num)
   for i in arr
     for j in arr
        if i*j == num
-         return true
+         return false
          break
        end
     end
   end
-  return false
+  return true
 end
 
 puts prime?(6)
