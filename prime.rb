@@ -14,7 +14,7 @@ def prime?(num)
   return true
 end
 
-a = [2,]
+a = [1,]
 for i in prime?(6)
 
 
